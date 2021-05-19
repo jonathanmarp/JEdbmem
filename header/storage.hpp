@@ -31,6 +31,8 @@ namespace storage {
             float getfloat(int id);
             double getdouble(int id);
             std::string getstring(int id);
+        public:
+            int length_data();
     };
 };
 
