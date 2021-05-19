@@ -18,12 +18,7 @@ OUTPUT_SRC    = obj
 FINISH_OUTPUT = libdbmem.a
 
 # Start
-all: @start_compile @compile_cpp @check_obj @compile_end
-
-@start_compile:
-	@printf "+==================+ \n"
-	@printf "|   Build Start    | \n"
-	@printf "+==================+ \n"
+all: @compile_cpp @check_obj @compile_end
 
 @compile_cpp:
 	@for _source_ in $(SOURCES_CPP); do \
