@@ -30,6 +30,7 @@ class class_of_dbmem {
         std::string getstring(int id);
     public:
         int length();
+        std::string type(int id);
     
 };
 

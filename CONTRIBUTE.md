@@ -16,5 +16,4 @@ This project is a database that can store data into memory.
 So there will be a list that can be done, you can see it below
 
 ### Todo
-- Add long features of data. This Explanation: is used so that we can find out how long the data we can see.
-- Second, see what type this status is. Explanation: for us to know the type of the id so there is no problem when retrieving data or looking for information with this feature.
+- NOTHING

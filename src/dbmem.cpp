@@ -67,3 +67,7 @@ std::string class_of_dbmem::getstring(int id) {
 int class_of_dbmem::length() {
     return _storage_array_[id_of_array_].length_data();
 }
+
+std::string class_of_dbmem::type(int id) {
+    return _storage_array_[id_of_array_].getType(id);
+}
