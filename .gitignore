@@ -34,3 +34,6 @@
 # ignores folder
 .replit
 *.manifest
+
+# folder
+obj/
